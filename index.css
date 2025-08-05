@@ -1,0 +1,39 @@
+    body, html {
+      height: 100%;
+      font-family: 'Lato', sans-serif;
+      color: #777;
+      line-height: 1.8;
+    }
+    .bgimg {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bgimg-1 {
+      background-image: url('img2.png');
+      min-height: 100vh;
+    }
+    .bgimg-2 {
+      background-image: url('Black\ Minimalist\ Music\ Channel\ Youtube\ Banner.png');
+      min-height: 400px;
+    }
+    .bgimg-3 {
+      background-image: url('https://www.w3schools.com/w3images/parallax3.jpg');
+      min-height: 400px;
+    }
+    .section {
+      padding: 60px 15px;
+    }
+    @media (max-width: 768px) {
+      .bgimg {
+        background-attachment: scroll;
+      }
+    }
+
+
+.bag-banner{
+background-color: rgb(72, 72, 72);
+border-radius: 6px;
+padding: 10px;
+}
